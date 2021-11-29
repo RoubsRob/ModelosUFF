@@ -1,0 +1,13 @@
+Universidade Federal Fluminense
+Desenvolvimento de Software Dirigido a Modelos
+Trabalho Aula 2 – Criação de profile com estereótipo.
+Roberta Sá de Oliveira
+
+Minimundo
+O minimundo no qual o modelo é baseado em uma simplificação da plataforma IdUFF. 
+Nesta plataforma:
+•	Os alunos(usuários) podem fazer login, gerando uma sessão;
+•	Os alunos(usuários) podem visualizar a grade de inscrição do semestre de forma que cada usuário tem uma grade onde constam as turmas que o usuário está inscrito no semestre.;
+•	Cada grade está associada a uma ou várias disciplinas
+•	Cada turma está associada a uma disciplina;
+•	Cada grade contém uma restrição, que diz que uma grade só pode ser criada com a data final do semestre maior do que a data inicial.
