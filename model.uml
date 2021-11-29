@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:model2="http:///schemas/model2/_dgpHQFFjEeyzNM-dzUQ2Ww/25" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/model2/_dgpHQFFjEeyzNM-dzUQ2Ww/25 model2.profile.uml#_dgpuUFFjEeyzNM-dzUQ2Ww">
+  <uml:Model xmi:id="__d_RMEuqEeyoWsbPnNyHng" name="model">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="__e_90EuqEeyoWsbPnNyHng">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_R8aMIEveEeye35etqgtW2Q" name="Aulas" visibility="package">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_S3fg4E46EeyMmvpqYnC8Fw" name="create"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_TpGkAE46EeyMmvpqYnC8Fw" name="read"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_UFBD8E46EeyMmvpqYnC8Fw" name="update"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_UzprkE46EeyMmvpqYnC8Fw" name="delete"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_YXD7YEveEeye35etqgtW2Q" name="Sessão">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_O4KkkE46EeyMmvpqYnC8Fw" name="create"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_PwwZcE46EeyMmvpqYnC8Fw" name="read"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_QLKdgE46EeyMmvpqYnC8Fw" name="update"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_QjkWcE46EeyMmvpqYnC8Fw" name="delete"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_5CEHEEvgEeyMmvpqYnC8Fw" name="Conta">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Fit4IE46EeyMmvpqYnC8Fw" name="create"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_HdOdAE46EeyMmvpqYnC8Fw" name="read"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_I2zfEE46EeyMmvpqYnC8Fw" name="update"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_KAzNAE46EeyMmvpqYnC8Fw" name="delete"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_Z-zh0E46EeyMmvpqYnC8Fw" client="_YXD7YEveEeye35etqgtW2Q" supplier="_5CEHEEvgEeyMmvpqYnC8Fw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_eUcFUE46EeyMmvpqYnC8Fw" client="_5CEHEEvgEeyMmvpqYnC8Fw" supplier="_R8aMIEveEeye35etqgtW2Q"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_vmPCoEvcEeye35etqgtW2Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2Kxw4EvgEeyMmvpqYnC8Fw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2Kxw4UvgEeyMmvpqYnC8Fw" key="Version" value="0.0.16"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2Kxw4kvgEeyMmvpqYnC8Fw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2Kxw40vgEeyMmvpqYnC8Fw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2Kxw5EvgEeyMmvpqYnC8Fw" key="Date" value="2021-11-22"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2Kxw5UvgEeyMmvpqYnC8Fw" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vmTUEEvcEeye35etqgtW2Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="model2.profile.uml#_dgpuUFFjEeyzNM-dzUQ2Ww"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="model2.profile.uml#_XQgHUEuvEeyoWsbPnNyHng"/>
+    </profileApplication>
+  </uml:Model>
+  <model2:Classe xmi:id="_USBYoEveEeye35etqgtW2Q" base_Class="_R8aMIEveEeye35etqgtW2Q"/>
+  <model2:Account xmi:id="_LSHvUEvnEeyMmvpqYnC8Fw" base_Class="_5CEHEEvgEeyMmvpqYnC8Fw"/>
+  <model2:Sessão xmi:id="_PdPI0FFhEeyMmvpqYnC8Fw" base_Class="_YXD7YEveEeye35etqgtW2Q"/>
+</xmi:XMI>
